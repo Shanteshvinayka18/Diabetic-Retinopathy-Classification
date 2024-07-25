@@ -1,0 +1,167 @@
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #000; /* Black text color */
+}
+
+header {
+  background: linear-gradient(to right, #ff0066, #6600cc); /* Gradient background for header (neon red to neon blue) */
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+  color: #fff;
+  font-size: 24px;
+  margin-left: 30px;
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li:last-child {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+main {
+  padding-top: 90px;
+}
+
+section {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.page-content {
+  width: 90%;
+  height: 100%; /* Adjusted height */
+  margin: auto;
+  padding: 40px;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #fff; /* White background */
+}
+
+footer {
+  background: linear-gradient(to right, #ff0066, #6600cc); /* Gradient background for footer (neon red to neon blue) */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  flex-shrink: 0;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific Styles */
+h1, h2, h3 {
+  color: #ff0066; /* Neon red text color */
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+}
+
+button {
+  background: linear-gradient(to right, #ff0066, #6600cc); /* Gradient background for buttons (neon red to neon blue) */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+button:hover {
+  background: linear-gradient(to right, #ff3399, #9933ff); /* Darker gradient on hover (lighter neon red to lighter neon blue) */
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input[type="file"] + button {
+  background: linear-gradient(to right, #ff0066, #6600cc); /* Gradient background for buttons (neon red to neon blue) */
+  color: #fff; /* White text color */
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+input[type="file"] + button:hover {
+  background: linear-gradient(to right, #ff3399, #9933ff); /* Darker gradient on hover (lighter neon red to lighter neon blue) */
+}
+
+#result {
+  margin-top: 20px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.preview-image-container {
+  width: 100%; /* Set width to 100% of the container */
+  max-width:
+
+ 300px; /* Set max-width to limit the size */
+  height: auto; /* Allow height to adjust proportionally */
+  margin-bottom: 20px; /* Add some margin to separate from other elements */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.preview-image {
+  width: 100%; /* Set image width to 100% of the container */
+  height: auto; /* Allow height to adjust proportionally */
+  border-radius: 20px; /* Rounded corners */
+}
+#about .page-content {
+  padding: 30px; /* Reduced padding */
+  font-size: 15px; /* Reduced font size */
+}
+#logo {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+#logo-text {
+  margin-right: 5px;
+  margin-top: -1px; /* Adjust the margin to shift the text up */
+}
